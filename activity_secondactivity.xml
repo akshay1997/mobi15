@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="com.example.akshay.mobievisionday2.secondactivity">
+
+    <TextView
+
+        android:id="@+id/numberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:text="0" />
+
+
+    <Button
+        android:id="@+id/DecrementButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Decrement" />
+
+    <Button
+        android:id="@+id/IncrementButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Increment" />
+
+    <Button
+    android:id="@+id/nextActivityButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Go to Next Activity" />
+
+
+
+</LinearLayout>
